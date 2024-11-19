@@ -12,32 +12,32 @@ import Person from '../../app/assets/person.jpeg';
 export function FeaturesSectionDemo() {
   const features = [
     {
-      title: "Track issues effectively",
+      title: "Custom Website Design and Development Services",
       description:
-        "Track and manage your project issues with ease using our intuitive interface.",
+        "We craft visually stunning and user-friendly websites that engage your audience.",
       skeleton: <SkeletonOne />,
       className:
         "col-span-1 lg:col-span-4 border-b lg:border-r dark:border-neutral-800",
     },
     {
-      title: "Capture pictures with AI",
+      title: "Full Stack Development for Robust Applications",
       description:
-        "Capture stunning photos effortlessly using our advanced AI technology.",
+        "Our full stack development services bring your ideas to life with seamless functionality.",
       skeleton: <SkeletonTwo />,
       className: "border-b col-span-1 lg:col-span-2 dark:border-neutral-800",
     },
     {
-      title: "Watch our AI on YouTube",
+      title: "Expert Blockchain Solutions for Modern Businesses",
       description:
-        "Whether its you or Tyler Durden, you can get to know about our product on YouTube",
+        "Leverage the power of blockchain technology to enhance security and transparency.",
       skeleton: <SkeletonThree />,
       className:
         "col-span-1 lg:col-span-3 lg:border-r  dark:border-neutral-800",
     },
     {
-      title: "Deploy in seconds",
+      title: "Global Reach with Scalable Solutions",
       description:
-        "With our blazing fast, state of the art, cutting edge, we are so back cloud servies (read AWS) - you can deploy your model in seconds.",
+        "Empowering businesses worldwide with innovative and adaptable technologies.",
       skeleton: <SkeletonFour />,
       className: "col-span-1 lg:col-span-3 border-b lg:border-none",
     },
@@ -46,13 +46,13 @@ export function FeaturesSectionDemo() {
     <div className="relative z-20 py-10 lg:py-40 max-w-7xl mx-auto">
       <div className="px-8">
         <h4 className="text-3xl lg:text-5xl lg:leading-tight max-w-5xl mx-auto text-center tracking-tight font-medium text-black dark:text-white">
-          Packed with thousands of features
+        Solutions for Every Business Need
         </h4>
 
-        <p className="text-sm lg:text-base  max-w-2xl  my-4 mx-auto text-neutral-500 text-center font-normal dark:text-neutral-300">
+        {/* <p className="text-sm lg:text-base  max-w-2xl  my-4 mx-auto text-neutral-500 text-center font-normal dark:text-neutral-300">
           From Image generation to video generation, Everything AI has APIs for
           literally everything. It can even create this website copy for you.
-        </p>
+        </p> */}
       </div>
 
       <div className="relative ">
@@ -113,11 +113,11 @@ export const SkeletonOne = () => {
         <div className="flex flex-1 w-full h-full flex-col space-y-2  ">
           {/* TODO */}
           <Image
-            src={Person}
+            src="/website.png"
             alt="header"
             width={800}
             height={800}
-            className="h-full w-full aspect-square object-cover object-left-top rounded-sm"
+            className="h-auto w-auto aspect-square  object-left-top rounded-sm"
           />
         </div>
       </div>
@@ -154,11 +154,11 @@ export const SkeletonThree = () => {
 
 export const SkeletonTwo = () => {
   const images = [
-    "https://images.unsplash.com/photo-1517322048670-4fba75cbbb62?q=80&w=3000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "/../public/person.jpeg",
-    "/../../app/public/person.jpeg",
-    "/../../app/public/person.jpeg",
-    "/../../app/public/person.jpeg",
+    "/Frontend.png",
+    "/Backend.png",
+    "/Frontend.png",
+    "/website.png",
+    "/website.png",
   ];
 
   const imageVariants = {
@@ -189,7 +189,7 @@ export const SkeletonTwo = () => {
             className="rounded-xl -mr-4 mt-4 p-1 bg-white dark:bg-neutral-800 dark:border-neutral-700 border border-neutral-100 flex-shrink-0 overflow-hidden"
           >
             <Image
-              src={"/../../app/public/person.jpeg"}
+              src={"/website.png"}
               alt="bali images"
               width="500"
               height="500"

@@ -5,7 +5,7 @@ import Link from "next/link"
 export default function Navbar() {
   return (
     <header className=" fixed top-0 z-50 w-full  bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 flex justify-center border-b-2 border-slate-300/10">
-      <div className="container flex  h-14 max-w-screen-lg">
+      <div className="container flex  h-14 max-w-screen-xl">
         <Link className="mr-6 flex items-center  space-x-2 "  href="#">
         
           <span className="font-bold">&lt; &gt; CodeForge</span>
