@@ -113,11 +113,11 @@ export const SkeletonOne = () => {
         <div className="flex flex-1 w-full h-full flex-col space-y-2  ">
           {/* TODO */}
           <Image
-            src="/website.png"
+            src="/249.png"
             alt="header"
             width={800}
             height={800}
-            className="h-auto w-auto aspect-square  object-left-top rounded-sm"
+            className="h-auto w-auto aspect-square  object-left-top rounded-sm "
           />
         </div>
       </div>
@@ -130,17 +130,17 @@ export const SkeletonOne = () => {
 
 export const SkeletonThree = () => {
   return (
-    <Link
-      href="https://www.youtube.com/watch?v=RPa3_AD1_Vs"
-      target="__blank"
-      className="relative flex gap-10  h-full group/image"
-    >
+    // <Link
+    //   href="https://www.youtube.com/watch?v=RPa3_AD1_Vs"
+    //   target="__blank"
+    //   className="relative flex gap-10  h-full group/image"
+    // >
       <div className="w-full  mx-auto bg-transparent dark:bg-transparent group h-full">
         <div className="flex flex-1 w-full h-full flex-col space-y-2  relative">
           {/* TODO */}
-          <IconBrandYoutubeFilled className="h-20 w-20 absolute z-10 inset-0 text-red-500 m-auto " />
+          {/* <IconBrandYoutubeFilled className="h-20 w-20 absolute z-10 inset-0 text-red-500 m-auto " /> */}
           <Image
-            src="https://assets.aceternity.com/fireship.jpg"
+            src="/blockchain.png"
             alt="header"  
             width={800}
             height={800}
@@ -148,7 +148,7 @@ export const SkeletonThree = () => {
           />
         </div>
       </div>
-    </Link>
+    // {/* </Link> */}
   );
 };
 
@@ -156,9 +156,9 @@ export const SkeletonTwo = () => {
   const images = [
     "/Frontend.png",
     "/Backend.png",
-    "/Frontend.png",
-    "/website.png",
-    "/website.png",
+    "/249.png",
+    "/w1.jpeg",
+    "/w2.png",
   ];
 
   const imageVariants = {
