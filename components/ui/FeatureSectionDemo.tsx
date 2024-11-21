@@ -5,9 +5,6 @@ import Image from "next/image";
 import createGlobe from "cobe";
 import { useEffect, useRef } from "react";
 import { motion } from "framer-motion";
-import { IconBrandYoutubeFilled } from "@tabler/icons-react";
-import Link from "next/link";
-import Person from '../../app/assets/person.jpeg';
 
 export function FeaturesSectionDemo() {
   const features = [

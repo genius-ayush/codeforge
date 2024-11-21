@@ -2,13 +2,6 @@
 import React from "react";
 import { BackgroundBeams } from "./ui/background-beams";
 import { TextGenerateEffect } from "./ui/text-generate-effect";
-// import {image1} from "../app/assets/tailwind.svg"
-import nextjsLogo from '../app/assets/nextjs.svg';
-import reactLogo from '../app/assets/react.svg';
-import schadcnLogo from '../app/assets/schadcn.svg';
-
-import Image from 'next/image';
-import { HoverBorderGradient } from "./ui/hover-border-gradient";
 import { HoverBorderGradientDemo } from "./ui/hover-border-gradient-modi";
 import { FlipWords } from "./ui/flipword";
 const words = `We build exceptional websites, scalable applications, and innovative blockchain solutions.`;
