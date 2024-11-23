@@ -5,7 +5,7 @@ import { PlaceholdersAndVanishInput } from "./ui/placeholders-and-vanish-input";
 
 export default function Touch() {
   const placeholders = [
-    "Enter you Email to get in touch",
+    "Enter you Email to get in touch"
   ];
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -18,7 +18,7 @@ export default function Touch() {
   return (
     <div className="h-[30rem] flex flex-col justify-center  items-center px-4">
       <h2 className="mb-2 sm:mb-10 text-xl text-center sm:text-5xl dark:text-white text-black">
-      Let's Build Your Vision Together
+      Let&apos;s Build Your Vision Together
       </h2>
       <p className="mb-5">Contact us today for a personalized consultation and discover how we can elevate your project.</p>
       <PlaceholdersAndVanishInput
